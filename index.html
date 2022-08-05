@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 for Semantics and Accessibility</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3 title="A logo sites here">Logo</h3>
+            <ul>
+                <li><a href="" title="This is a nav item">Nav1</a></li>
+                <li><a href="" title="This is a nav item">Nav2</a></li>
+                <li><a href="" title="This is a nav item">Nav3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section title="This is a section">
+        <h1 title="This is an h1 level heading">Main Heading</h1>
+        <img src="spidey.jpg" alt="An image of spiderman wearing headphones and a yellow jacket" title="This is an image of spiderman." />
+        <figcaption title="This is a figcaption">This is an image of spiderman</figcaption>
+    </section>
+    <section title="This is a section">
+        <h2 title="This is an h2 level heading">Form</h2>
+        <form action="mailto:setorkg@gmail.com" method="post">
+            <label title="This is a label" for="name">Name</label>
+            <input title="This is a text input field" type="text" name="name" id="name" placeholder="Enter your name here" autocomplete="on" autocomplete-suggestions="true"><br><br>
+            <label title="This is a label" for="email">Email</label>
+            <input title="This is an email input field" type="email" name="email" placeholder="Enter your email address" autocomplete="on" autocomplete-suggestions="true"><br><br>
+            <label title="This is a label" for="message">Message</label> 
+            <textarea title="This is a textarea input field" type="textarea" name="message" id="message" placeholder="Message" autocomplete="off" autocomplete-suggestions="true"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
